@@ -1,7 +1,8 @@
-# Product Overview — AttendSure (working name)
+# Product Overview — AttendSure
 
-> Single source of truth for the product. "AttendSure" is a provisional working name
-> pending the owner's confirmation during scoping.
+> Single source of truth for the product. Name confirmed by the owner: **AttendSure**.
+> The MVP is built and live (routes: `/check-in`, `/rules`, `/sops`, `/dashboard`;
+> seeded HR admin + demo employee; per-day attendance recording with rolling valid counts).
 
 ## What it is
 A simple web app that gives HR teams **attendance integrity** plus a place to manage
