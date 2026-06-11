@@ -1,0 +1,61 @@
+<style>
+  .mode-portrait .sl-grid { grid-template-columns: 1fr; }
+  .mode-landscape .sl-grid { grid-template-columns: 1fr 1fr; }
+</style>
+<section class="w-full h-full overflow-auto bg-white flex flex-col p-12">
+  <div>
+    <p class="text-indigo-600 font-semibold tracking-widest uppercase text-sm">Core Features</p>
+    <h2 class="text-slate-900 font-bold text-4xl mt-2">Built around two roles</h2>
+  </div>
+
+  <!-- Persona chips -->
+  <div class="flex gap-3 mt-6">
+    <span class="px-5 py-2 rounded-full bg-indigo-600 text-white text-sm font-semibold shadow-sm">HR (Admin)</span>
+    <span class="px-5 py-2 rounded-full bg-white border border-slate-200 text-slate-500 text-sm font-semibold">Employee</span>
+  </div>
+
+  <!-- Feature grid -->
+  <div class="sl-grid grid gap-6 mt-8 flex-1 content-start">
+    <!-- HR cards -->
+    <div class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+      <div class="w-11 h-11 rounded-xl bg-indigo-100 flex items-center justify-center mb-4">
+        <span class="text-indigo-600 text-xl">&#8593;</span>
+      </div>
+      <h3 class="text-slate-900 font-semibold text-xl">Upload SOP / rules documents</h3>
+      <p class="text-slate-600 mt-2 leading-relaxed">HR uploads the policy documents employees operate under, giving everyone one authoritative place for rules and procedures.</p>
+      <span class="inline-block mt-4 text-xs font-semibold text-indigo-600 uppercase tracking-wide">HR</span>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+      <div class="w-11 h-11 rounded-xl bg-indigo-100 flex items-center justify-center mb-4">
+        <span class="text-indigo-600 text-xl">&#9632;</span>
+      </div>
+      <h3 class="text-slate-900 font-semibold text-xl">SLA / attendance-validity dashboard</h3>
+      <p class="text-slate-600 mt-2 leading-relaxed">At a glance, HR sees whether each employee validly attended — turning raw check-ins into a clear attendance-integrity signal.</p>
+      <span class="inline-block mt-4 text-xs font-semibold text-indigo-600 uppercase tracking-wide">HR</span>
+    </div>
+
+    <!-- Employee cards -->
+    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-7">
+      <div class="w-11 h-11 rounded-xl bg-slate-200 flex items-center justify-center mb-4">
+        <span class="text-slate-700 text-xl">&#9776;</span>
+      </div>
+      <h3 class="text-slate-900 font-semibold text-xl">View applicable SOPs / rules</h3>
+      <p class="text-slate-600 mt-2 leading-relaxed">Employees see the rules and procedures they are expected to follow, pulled from HR's authoritative library.</p>
+      <span class="inline-block mt-4 text-xs font-semibold text-slate-500 uppercase tracking-wide">Employee</span>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-7">
+      <div class="w-11 h-11 rounded-xl bg-slate-200 flex items-center justify-center mb-4">
+        <span class="text-slate-700 text-xl">&#9673;</span>
+      </div>
+      <h3 class="text-slate-900 font-semibold text-xl">Submit face capture for attendance</h3>
+      <p class="text-slate-600 mt-2 leading-relaxed">Each check-in returns an explicit result:</p>
+      <div class="flex gap-2 mt-3">
+        <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 text-xs font-semibold">Human face &rarr; Valid</span>
+        <span class="px-3 py-1 rounded-full bg-rose-100 text-rose-700 text-xs font-semibold">Non-human &rarr; Invalid</span>
+      </div>
+      <span class="inline-block mt-4 text-xs font-semibold text-slate-500 uppercase tracking-wide">Employee</span>
+    </div>
+  </div>
+</section>
