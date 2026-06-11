@@ -1,0 +1,45 @@
+<style>
+  .mode-portrait .sl-metrics { grid-template-columns: 1fr; }
+  .mode-landscape .sl-metrics { grid-template-columns: repeat(3, 1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white flex flex-col p-12">
+  <div>
+    <p class="text-indigo-600 font-semibold tracking-widest uppercase text-sm">Benefits</p>
+    <h2 class="text-slate-900 font-bold text-4xl mt-2">Outcomes that build trust</h2>
+  </div>
+
+  <!-- Metric cards -->
+  <div class="sl-metrics grid gap-6 mt-8">
+    <div class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+      <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wide">Integrity</p>
+      <p class="text-slate-900 font-bold text-3xl mt-3 leading-tight">Buddy-punching eliminated</p>
+      <p class="text-slate-600 mt-3 leading-relaxed">Face-validated check-ins remove the easiest form of attendance fraud — a check-in only counts when a real human face is confirmed.</p>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+      <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wide">Policy</p>
+      <p class="text-slate-900 font-bold text-3xl mt-3 leading-tight">One source of truth</p>
+      <p class="text-slate-600 mt-3 leading-relaxed">SOPs and rules move out of scattered files into one authoritative library every employee can read.</p>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+      <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wide">Visibility</p>
+      <p class="text-slate-900 font-bold text-3xl mt-3 leading-tight">Instant compliance view</p>
+      <p class="text-slate-600 mt-3 leading-relaxed">The SLA dashboard makes validity obvious at a glance — HR finally has a credible view of who actually showed up.</p>
+    </div>
+  </div>
+
+  <!-- ROI summary block -->
+  <div class="rounded-2xl bg-slate-900 p-8 mt-8 flex items-center justify-between gap-8 flex-1">
+    <div class="max-w-xl">
+      <p class="text-indigo-300 font-semibold uppercase tracking-wide text-xs">ROI Summary</p>
+      <h3 class="text-white font-bold text-2xl mt-2 leading-snug">Credible attendance turns guesswork into a signal HR can act on.</h3>
+      <p class="text-slate-300 mt-3 leading-relaxed">Every valid check-in is a verifiable operation. Multiply that across the team and the value compounds — quantified on the North Star slide.</p>
+    </div>
+    <div class="text-right shrink-0">
+      <p class="text-5xl font-bold text-white">100<span class="text-indigo-400">%</span></p>
+      <p class="text-slate-300 text-sm mt-2 max-w-[12rem]">of counted attendance is face-verified</p>
+      <span class="inline-block mt-3 text-[11px] font-medium text-amber-300 border border-amber-400/40 rounded-full px-3 py-1">Assumption — adjust this: assumes full adoption</span>
+    </div>
+  </div>
+</section>
