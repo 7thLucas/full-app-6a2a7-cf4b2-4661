@@ -42,6 +42,5 @@ a valid attendance for that day. SOP acknowledgements are a secondary operation.
 - Validation is binary and explicit: human face = OK, non-human face = invalid.
 
 ## Open / to confirm
-- Final product name.
 - Team size, number of locations, and check-in frequency (needed to quantify impact).
 - Whether SLA targets (e.g. required valid check-ins per week) are configurable by HR.
